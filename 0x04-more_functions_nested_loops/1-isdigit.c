@@ -7,10 +7,14 @@
  * Return: 0 or 1
  */
 
-int _isdigit(int i)
+int _isdigit(int c)
 {
-	if (i >= 0 && i <= 9)
+	if (c >= '0' && c <= '9')
+	{
 		return (1);
+	}
 	else
+	{
 		return (0);
+	}
 }
