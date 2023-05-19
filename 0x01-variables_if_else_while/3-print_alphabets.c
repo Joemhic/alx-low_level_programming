@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints letters
+ * main - prints lowercase and uppercase
  *
- * Return: 0
+ * Return:0
  *
  */
 
@@ -16,6 +16,11 @@ int main(void)
 		putchar(letter);
 	}
 
+	for (letter = 'A'; letter <= 'Z'; letter++)
+	{
+		putchar(letter);
+	}
+
 	putchar('\n');
-	return (1);
+	return (0);
 }

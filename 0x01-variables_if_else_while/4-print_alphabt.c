@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints letters
+ * main - prints some alphabets
  *
  * Return: 0
  *
@@ -13,9 +13,13 @@ int main(void)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(letter);
+	if (letter != 'q' && letter != 'e')
+	{
+	putchar(letter);
+	}
 	}
 
 	putchar('\n');
-	return (1);
+	return (0);
 }
+
